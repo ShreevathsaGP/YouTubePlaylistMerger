@@ -1,0 +1,4 @@
+/client_secrets.json
+/service_secrets.json
+/__pycache__/
+*/.DS_Store

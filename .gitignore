@@ -1,4 +1,5 @@
 /client_secrets.json
 /service_secrets.json
 /__pycache__/
+/token_youtube_v3.pickle
 */.DS_Store

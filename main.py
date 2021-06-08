@@ -12,7 +12,7 @@ service_secret_file = "service_secrets.json"
 api_name = "youtube"
 api_version = "v3"
 scopes = ["https://www.googleapis.com/auth/youtube"]
-youtube = custom_auth.create_service(client_secret_file, api_name, api_version, scopes, cred_type = "client")
+youtube = custom_auth.create_api(client_secret_file, api_name, api_version, scopes, cred_type = "client")
 
 # playlists to merge
 merge_playlists = [

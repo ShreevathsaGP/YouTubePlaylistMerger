@@ -7,7 +7,7 @@ from googleapiclient.http import MediaFileUpload, MediaIoBaseDownload
 from google.auth.transport.requests import Request
 from google.oauth2 import service_account
 
-def create_service(secrets_file, api_name, api_version, *scopes, cred_type = "service"):
+def create_api(secrets_file, api_name, api_version, *scopes, cred_type = "service"):
     # constants
     secrets_file = secrets_file
     api_name = api_name
